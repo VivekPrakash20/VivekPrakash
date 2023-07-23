@@ -203,39 +203,8 @@
 
 <!-- Contact Section Start -->
 <section class="contact" id="contact">
-    <div class="heading">
-        <h2>Contact</h2>
-        <span>Connect With Us</span>
-    </div>
-    <div class="contact-form">
-        <form onsubmit="sendEmail(); reset(); return false;">
-            <input type="text" name="name" id="name" placeholder="Your Name">
-            <input type="email" name="email" id="email" placeholder="Your Email">
-            <textarea name="tx" id="tx" cols="30" rows="10" placeholder="Write Message Here..."></textarea>
-                                <input type="submit" value="send" class="contact-button">
-                                </form>
-                            </div>
-                            <script src="https://smtpjs.com/v3/smtp.js"></script>
-                           <script>
-                            function sendEmail()
-                            {
-                                Email.send({
-                                    Host : "smtp.elasticemail.com",
-                                    Username : "v4vivek1999@gmail.com",
-                                    Password : "16D3B74E6C2336B4883F1006F02F6B6722E9",
-                                    To : "v4vivek.2017@gmail.com",
-                                    From : "v4vivek1999@gmail.com",
-                                    Subject : "New contact form Enquiry",
-                                    
-                                    Body : "Name: "+document.getElementById("name").value
-                                    +"<br> E-mail: "+document.getElementById("email").value
-                                    +"<br> Message: "+document.getElementById("tx").value
-                                }).then(
-                                message => alert("Thank You")
-                                );
-                            }
-                           </script>
-                            </section>
+    <
+    
                             <Script>
                                 var button =document.getElementById('button')
                             </Script>
