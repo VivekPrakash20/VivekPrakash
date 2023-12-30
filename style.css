@@ -267,23 +267,27 @@
                                       border-radius: 0.5rem;
                                     }
                                    
-                                    .Java-bar {
+                                    .Linux-bar {
+                                      width: 60%;
+                                    }
+                                   
+                                    .DevOps-bar {
+                                      width: 80%;
+                                    }
+                                   
+                                    .AWS-bar {
                                       width: 70%;
-                                    }
-                                   
-                                    .HTML-bar {
-                                      width: 40%;
-                                    }
-                                   
-                                    .JavaScript-bar {
-                                      width: 50%;
                                     }
                                    
                                     .css-bar {
                                       width: 40%;
                                     }
-                                    .ReactJs-bar {
-                                        width: 45%;
+                                    .Java-bar{
+                                      width: 65%;
+                                    }
+
+                                    .HTML-bar {
+                                        width: 50%;
                                       }
                                       /* Start? */
                                       .work-content {
